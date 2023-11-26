@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+p{
+    font-family:Tahoma, sans-serif;
+    font-size:2em;
+    font-weight:bold;
+    letter-spacing:0.2em;
+    line-height:1.3em;
+    color:#ffffff;
+    padding:1em;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    text-align: center;
+}
+bold{
+    text-shadow: -5px 0px 3px #5400a8;
+}
+h1{
+    position:absolute;
+    border: yellow 5px dotted;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+img{
+    position: absolute;
+    left: 40%;
+    right: 45%;
+    filter: brightness(50%);
+    border-radius: 50%;
+}
+img:hover{
+    transform: scale(1.3);
+    transition: 5s;
+    filter: brightness(100%)
+}
+
+.half{
+    display: flex;
+    float: left;
+    width: 50%;
+    justify-content: center;
+    height: 120vh;
+    
+    
+}
+.half input{
+    display: block;
+    margin: 100px;
+    bottom: 10px;
+    padding: 11px;
+    font-size: 25px;
+    border-width: 4px;
+    border-color: #fffbfb;
+    background-color: #000000;
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 14px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    box-shadow: rgb(143, 17, 143) 0px 5px 5px 5px;
+}
+#display{
+    display: none;
+}
+#display h1{
+    left: 63%;
+}
+
+#Przycisk{
+    margin-left: 35%;
+}
+#Przycisk:hover{
+    color: black;
+    background-color: white;
+    transition: 5s;
+    transform: 5s;
+}
+
+
+
+
